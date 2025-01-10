@@ -1,4 +1,4 @@
-// Get two numbers from the command line
+// Get a word for our roshambo from the command line
 const args = process.argv.slice(1);
 // Check if the user provided exactly the input
 if (args.length !== 2) {
@@ -29,7 +29,7 @@ function getRandomRoshambo() {
   }
 }
 
-console.log(getRandomRoshambo());
+getRandomRoshambo();
 
 if (userInput === "rock") {
   switch (choicesMachine) {
