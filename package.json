@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "opensoars_cls": "^0.0.10",
+    "prompt": "^1.3.0"
+  }
+}

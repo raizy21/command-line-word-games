@@ -9,6 +9,7 @@ if (args.length !== 2) {
 }
 let userInput = String(args[1]);
 let choicesMachine;
+
 // console.log("Args: ", userInput);
 
 function getRandomRoshambo() {
@@ -89,7 +90,7 @@ if (userInput === "scissors") {
 
     case 2:
       return console.log(
-        "scissors against scissors. you lost. equal please enter another roshambo.."
+        "scissors against scissors. equal please enter another roshambo.."
       );
 
     default:
