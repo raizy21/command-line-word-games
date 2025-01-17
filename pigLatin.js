@@ -1,3 +1,20 @@
+/*
+****************************
+node piglatin.js
+****************************
+
+Happy -> appyhay
+Child -> ildchay
+Awesome -> awesomeway
+Pig -> igpay
+Latin -> atinlay
+is -> isway
+hard -> ardhay
+to -> otay
+speak -> eakspay
+
+*/
+
 const prompt = require("prompt"); //require prompt
 const cls = require("opensoars_cls"); //require colors terminal
 
