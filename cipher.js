@@ -1,5 +1,28 @@
+/*
+****************************
+node cipher.js
+****************************
+
+--> encrypt
+hello world 
+3 => khoor zruog
+
+--> decrypt
+khoor zruogen 
+23 -> hello world
+
+--> encrypt
+i am a banana 
+2 => k co c dcpcpc
+
+--> decrypt
+k co c dcpcpc 
+ 24 ->  i am a banana
+****************************
+*/
+
 const prompt = require("prompt"); //require prompt
-const cls = require("opensoars_cls"); //colors terminal
+const cls = require("opensoars_cls"); //require colors terminal
 
 prompt.start(); //start the prompt
 
