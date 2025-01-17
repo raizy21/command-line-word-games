@@ -8,7 +8,7 @@ hello world
 3 => khoor zruog
 
 --> decrypt
-khoor zruogen 
+khoor zruog
 23 -> hello world
 
 --> encrypt

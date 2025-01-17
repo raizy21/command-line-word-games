@@ -1,6 +1,6 @@
 /*
 ****************************
-node piglatin.js
+node pigLatin.js
 ****************************
 
 Happy -> appyhay
