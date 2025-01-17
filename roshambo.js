@@ -1,3 +1,12 @@
+/*
+**************************
+node roshambo.js
+node roshambo.js rock
+node roshambo.js paper
+node roshambo.js scissors
+***************************
+*/
+
 // Get a word for our roshambo from the command line
 const args = process.argv.slice(1);
 // Check if the user provided exactly the input
@@ -7,11 +16,12 @@ if (args.length !== 2) {
   );
   return;
 }
+//user input
 let userInput = String(args[1]);
 let choicesMachine;
 
 // console.log("Args: ", userInput);
-
+//get a random number for computer in order to chose a roshambo
 function getRandomRoshambo() {
   choicesMachine = Math.floor(Math.random() * 3);
 
@@ -32,6 +42,7 @@ function getRandomRoshambo() {
 
 getRandomRoshambo();
 
+//if user chose rock
 if (userInput === "rock") {
   switch (choicesMachine) {
     case 0:
@@ -54,6 +65,7 @@ if (userInput === "rock") {
   }
 }
 
+//if user chose paper
 if (userInput === "paper") {
   switch (choicesMachine) {
     case 0:
@@ -76,6 +88,7 @@ if (userInput === "paper") {
   }
 }
 
+//if user chose scissors
 if (userInput === "scissors") {
   switch (choicesMachine) {
     case 0:
