@@ -4,8 +4,8 @@ A small code of interactivity with command-line, based on working with Node.js, 
 
 - [node.js](https://nodejs.org/en)
 - [node.js wiki](https://en.wikipedia.org/wiki/Node.js)
-- [command line](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Command_line).
-- [console](https://developer.mozilla.org/en-US/docs/Web/API/console).
+- [command line](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Command_line)
+- [console](https://developer.mozilla.org/en-US/docs/Web/API/console)
 
 Made just for fun.
 
@@ -15,7 +15,7 @@ Made just for fun.
 
 ### quick overview
 
-Check out the [source code](https://github.com/raizy21/command-line-word-games).
+Check out the [source code](https://github.com/raizy21/command-line-word-games)
 
 ### roshambo.js
 
