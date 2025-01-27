@@ -65,6 +65,12 @@ Check out the [source code](https://github.com/raizy21/command-line-word-games)
   node caesarCipher.js "hello world" 3
   # Output: khoor zruog
 
+### project resources
+
+- [Rock paper scissors ](https://en.wikipedia.org/wiki/Rock_paper_scissors)
+- [Pig Latin](https://en.wikipedia.org/wiki/Pig_Latin)
+- [Caesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher)
+
 ### conclusion
 
 This project will enhance your skills with hands-on experience in Node.js, creating command-line tools and working with console .
